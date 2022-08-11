@@ -1,0 +1,19 @@
+@media (max-aspect-ratio: 6/5){
+ body{
+    color:rgb(0,0,0);
+    font-size: calc(12* 100vw /320);
+ }
+}
+@media (max-width: 1134px) and (minaspect-ratio: 6/5){
+    body{
+        color: rgb(0,0,0);
+        font-size: calc(10* 100vw/480);
+
+    }
+}
+@media (min-width: 1134px) and (min-aspect-ratio:6/5){
+    body{
+        color: rgb(1,0,0);
+        font-size: calc(22*100vw/2560);
+    }
+}
