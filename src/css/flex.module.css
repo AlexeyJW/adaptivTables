@@ -1,0 +1,6 @@
+.ac-start {composes: ac-start from global;}
+.ai-center {align-items: center;}
+.flex {composes: flex from global;}
+.fb100 {flex-basis: 100%;}
+.fg1 {flex-grow:1;}
+.wrap {composes: wrap from global;}

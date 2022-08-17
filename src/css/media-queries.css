@@ -1,9 +1,11 @@
+/*Mobile, Portrait*/
 @media (max-aspect-ratio: 6/5){
  body{
     color:rgb(0,0,0);
     font-size: calc(12* 100vw /320);
  }
 }
+/*Mobile, Landscape*/
 @media (max-width: 1134px) and (minaspect-ratio: 6/5){
     body{
         color: rgb(0,0,0);
@@ -11,9 +13,18 @@
 
     }
 }
+/*Desktop*/
 @media (min-width: 1134px) and (min-aspect-ratio:6/5){
     body{
         color: rgb(1,0,0);
         font-size: calc(22*100vw/2560);
+    }
+}
+/*Wide (Ultra Wide) Monitors*/
+@media (min-wdth: 1134px) and (min-aspect-ratio: 5/2){
+    body {
+        color: rgb(1,0,0);
+        font-size: calc(22*100vw/2560);
+        
     }
 }

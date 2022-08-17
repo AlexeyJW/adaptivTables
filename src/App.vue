@@ -1,8 +1,15 @@
 <script setup>
+
+import {setMq} from './store-variables/media-queries';
+import ButtonsForTable from './components/ButtonsForTable.vue';
+
+setMq()
+
 </script>
 
 <template>
-  <p>There will be an adaptive table here</p>
+ 
+  <ButtonsForTable/>
 </template>
 
 <style>
@@ -13,4 +20,14 @@
 #app, body {
   min-height: 100%;
   width: 100%;}
+:root{
+  --gap:0.5em;
+  --gap-twice: 1em;
+}
+.pt {padding-top: var(--gap);}
+.pr2{padding-right: var(--gap-twice);}
+
+.flex, #app{display: flex;}
+.wrap, #app{flex-wrap: wrap;}
+.ac-start, #app{align-content: flex-start;}
 </style>
